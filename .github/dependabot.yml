@@ -13,7 +13,7 @@ updates:
       - "dependencies"
     commit-message:
       prefix: "chore: update dependencies"
-      prefix-development: "chore: update development dependencies"
+      prefix-development: "chore: update dependencies"
 
   - package-ecosystem: npm
     directory: /frontend
@@ -58,7 +58,7 @@ updates:
       - "order-service"
     commit-message:
       prefix: "chore(order-service): update dependencies"
-      prefix-development: "chore(order-service): update development dependencies"
+      prefix-development: "chore(order-service): update dependencies"
 
   - package-ecosystem: npm
     directory: /api-gateway
@@ -87,7 +87,7 @@ updates:
       - "dependencies"
     commit-message:
       prefix: "chore: update docker images"
-      prefix-development: "chore: update development docker images"
+      prefix-development: "chore: update docker images"
 
   - package-ecosystem: github-actions
     directory: /
@@ -101,4 +101,4 @@ updates:
       - "dependencies"
     commit-message:
       prefix: "chore: update GitHub Actions"
-      prefix-development: "chore: update development GitHub Actions"
+      prefix-development: "chore: update GitHub Actions"
