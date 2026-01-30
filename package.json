@@ -5,8 +5,10 @@
   "main": "frontend/src/main.jsx",
   "type": "module",
   "scripts": {
-    "lint": "eslint .",
-    "test": "jest"
+  "lint": "eslint .",
+  "test": "jest",
+  "start": "react-scripts start",
+  "build": "react-scripts build"
   },
   "repository": {
     "type": "git",
