@@ -1,0 +1,24 @@
+{
+  "name": "e-commerce_fastshop",
+  "version": "1.0.0",
+  "description": "Etudes de cas en cours de Projet intégration et déploiement continus dans la formation de développeur web et application 3e année bachelor EFREI",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IsmailIbrahimi/E-Commerce_FastShop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IsmailIbrahimi/E-Commerce_FastShop/issues"
+  },
+  "homepage": "https://github.com/IsmailIbrahimi/E-Commerce_FastShop#readme",
+  "devDependencies": {
+    "eslint": "^9.39.2"
+  }
+}
