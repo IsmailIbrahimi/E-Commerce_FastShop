@@ -15,6 +15,66 @@ updates:
       prefix: "chore: update dependencies"
       prefix-development: "chore: update development dependencies"
 
+  - package-ecosystem: npm
+    directory: /frontend
+    schedule:
+      interval: weekly
+      day: monday
+      time: "00:00"
+      timezone: "UTC"
+    open-pull-requests-limit: 10
+    labels:
+      - "dependencies"
+      - "frontend"
+    commit-message:
+      prefix: "chore(frontend): update dependencies"
+      prefix-development: "chore(frontend)"
+
+  - package-ecosystem: npm
+    directory: /product-service
+    schedule:
+      interval: weekly
+      day: monday
+      time: "00:00"
+      timezone: "UTC"
+    open-pull-requests-limit: 10
+    labels:
+      - "dependencies"
+      - "product-service"
+    commit-message:
+      prefix: "chore(product-service): update dependencies"
+      prefix-development: "chore(product-service)"
+  
+  - package-ecosystem: npm
+    directory: /order-service
+    schedule:
+      interval: weekly
+      day: monday
+      time: "00:00"
+      timezone: "UTC"
+    open-pull-requests-limit: 10
+    labels:
+      - "dependencies"
+      - "order-service"
+    commit-message:
+      prefix: "chore(order-service): update dependencies"
+      prefix-development: "chore(order-service): update development dependencies"
+
+  - package-ecosystem: npm
+    directory: /api-gateway
+    schedule:
+      interval: weekly
+      day: monday
+      time: "00:00"
+      timezone: "UTC"
+    open-pull-requests-limit: 10
+    labels:
+      - "dependencies"
+      - "api-gateway"
+    commit-message:
+      prefix: "chore(api-gateway)"
+      prefix-development: "chore(api-gateway)"
+
   - package-ecosystem: docker
     directory: /
     schedule:
