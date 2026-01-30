@@ -5,7 +5,8 @@
   "main": "frontend/src/main.jsx",
   "type": "module",
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
